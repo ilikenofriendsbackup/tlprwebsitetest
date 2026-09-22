@@ -1,1 +1,1 @@
-const b=document.querySelector('.hamb'),n=document.querySelector('nav');if(b)b.onclick=()=>n.classList.toggle('open');document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>n.classList.remove('open')));
+const b=document.querySelector('.hamb'),n=document.querySelector('nav');if(b)b.onclick=()=>n.classList.toggle('open');
